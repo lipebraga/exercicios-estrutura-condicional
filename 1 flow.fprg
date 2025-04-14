@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1 flow"/>
+        <attribute name="authors" value="DES-I1HS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-07 01:08:37 "/>
+        <attribute name="created" value="REVTLUkxSFM7RVNONTEyTkNOVEI3NzQ7MjAyNS0wNC0wNzsiMTI6NDE6MzIgIjsyNjQ3"/>
+        <attribute name="edited" value="REVTLUkxSFM7RVNONTEyTkNOVEI3NzQ7MjAyNS0wNC0wNzsiMDE6MDg6MzcgIjsxOzI3NjE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numqualquer" type="Real" array="False" size=""/>
+            <output expression="&quot;insira um numero&quot;" newline="True"/>
+            <input variable="numqualquer"/>
+            <if expression="numqualquer&gt;0">
+                <then>
+                    <output expression="&quot;esse numero &#233; positivo&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;esse numero nao &#233; positivo&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

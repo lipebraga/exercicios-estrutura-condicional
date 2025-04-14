@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="2 flow"/>
+        <attribute name="authors" value="DES-I1HS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-07 01:14:23 "/>
+        <attribute name="created" value="REVTLUkxSFM7RVNONTEyTkNOVEI3NzQ7MjAyNS0wNC0wNzsiMDE6MDk6MTIgIjsyNjQ3"/>
+        <attribute name="edited" value="REVTLUkxSFM7RVNONTEyTkNOVEI3NzQ7MjAyNS0wNC0wNzsiMDE6MTQ6MjMgIjsxOzI3NTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numidade" type="Integer" array="False" size=""/>
+            <output expression="&quot;insira sua idade &quot;" newline="True"/>
+            <input variable="numidade"/>
+            <if expression="numidade&gt;17">
+                <then>
+                    <output expression="&quot;maior de idade&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;menor de idade&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

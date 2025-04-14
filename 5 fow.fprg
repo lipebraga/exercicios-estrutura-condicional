@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="5 fow"/>
+        <attribute name="authors" value="DES-I1HS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-07 02:18:09 "/>
+        <attribute name="created" value="REVTLUkxSFM7RVNONTEyTkNOVEI3NzQ7MjAyNS0wNC0wNzsiMDE6NDU6MTkgIjsyNjU0"/>
+        <attribute name="edited" value="REVTLUkxSFM7RVNONTEyTkNOVEI3NzQ7MjAyNS0wNC0wNzsiMDI6MTg6MDkgIjsxOzI3NjI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numNumero" type="Real" array="False" size=""/>
+            <output expression="&quot;digite algum numero&quot;" newline="True"/>
+            <input variable="numNumero"/>
+            <if expression="numNumero % 5 == 0">
+                <then>
+                    <output expression="&quot;o numero &quot; &amp; numNumero &amp; &quot;&#233; mutiplo de 5&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot; o numero&quot; &amp; numNumero&amp; &quot; &#233; menor que multiplo de 5&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
